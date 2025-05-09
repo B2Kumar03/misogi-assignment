@@ -1,32 +1,22 @@
-import React from 'react'
-import './index.css'
+
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import ARoutes from './allroutes/ARoutes';
+import './App.css'
+import Navbar from './component/Navbar';
+
+
 
 const App = () => {
+ 
+
   return (
     <>
-    <div className='text-red-500  flex justify-around '>
-     <div>1</div>
-     <div>2</div>
-     <div>3</div>
-     <div>4</div>
-     <div>1</div>
-     <div>2</div>
-     <div>3</div>
-     <div>4</div>
-    </div>
-    <div className='text-red-500  flex justify-around '>
-     <div>1</div>
-     <div>2</div>
-     <div>3</div>
-     <div>4</div>
-     <div>1</div>
-     <div>2</div>
-     <div>3</div>
-     <div>4</div>
-    </div>
-    
+    <Navbar/>
+    <ARoutes/>
+    <ToastContainer/>
     </>
-  )
-}
+    );
+};
 
-export default App
+export default App;
