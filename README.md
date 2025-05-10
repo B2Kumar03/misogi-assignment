@@ -12,6 +12,9 @@ This is a React component that displays detailed information about a trip, inclu
 - Modal implemented with state toggling and email input validation.
 
 ## 📸 Screenshots
+## 📸 Screenshots
+
+![Trip Details Screenshot](https://github.com/B2Kumar03/project_Image/blob/main/Screenshot%202025-05-10%20114543.png?raw=true)
 
 > _Coming soon: Add screenshots of the component here._
 
